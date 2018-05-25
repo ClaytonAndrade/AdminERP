@@ -2,11 +2,11 @@
    
   <section class="content-header">
     <h1>
-      Criar Vendas
+      Vendas
     </h1>
     <ol class="breadcrumb">
       <li><a href="#"><i class="fa fa-dashboard"></i> Inicio</a></li>
-      <li class="active">Criar Vendas</li>
+      <li class="active">Venda</li>
     </ol>
   </section>
 

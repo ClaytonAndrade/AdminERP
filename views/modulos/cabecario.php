@@ -19,11 +19,8 @@
 	<nav class="navbar navbar-static-top" role="navigation">
 		
 		<!-- Botón de navegación -->
-
 	 	<a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
-        	
         	<span class="sr-only">Toggle navigation</span>
-      	
       	</a>
 
 		<!-- perfil de usuario -->
@@ -35,14 +32,9 @@
 					<?php
 
 					if($_SESSION["foto"] != ""){
-
 						echo '<img src="'.$_SESSION["foto"].'" class="user-image">';
-
 					}else{
-
-
 						echo '<img src="views/img/usuarios/default/anonymous.png" class="user-image">';
-
 					}
 
 					?>
@@ -56,6 +48,7 @@
 							</div>
 						</li>
 					</ul>
+
 				</li>
 			</ul>
 		</div>

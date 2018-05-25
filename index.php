@@ -1,3 +1,9 @@
+<!--======================================================================================================
+Autor: Clayton Andrade
+Data Inicial: 17/05/2018
+Descrição: Modelo de ERP simples utilizando php 7.1.7, MySQL 5.6.34 template AdminLTE 2.4.3, desenvolvido
+em servidor local MAMP.
+=======================================================================================================-->
 <?php
 
 require_once "controllers/template.controller.php";
