@@ -76,54 +76,61 @@
 
 </head>
 
-<body class="skin-blue sidebar-mini sidebar-collapse">
-<!-- Site wrapper -->
-<div class="wrapper">
+<body class="hold-trasition skin-blue sidebar-collapse sidebar-mini login-page">
 
 <?php
-/*====================================================
-Cabeçario
-====================================================*/
-  include "modulos/cabecario.php";
-/*====================================================
-Menu
-====================================================*/
-  include "modulos/menu.php";
-/*====================================================
-Conteudo
-====================================================*/
 
-if(isset($_GET["rota"])){
+if(isset($_SESSION["startSession"]) && $_SESSION["startSession"] == "ok"){
 
-  if($_GET["rota"] == "inicio" ||
-     $_GET["rota"] == "usuarios" ||
-     $_GET["rota"] == "categorias" ||
-     $_GET["rota"] == "produtos" ||
-     $_GET["rota"] == "clientes" ||
-     $_GET["rota"] == "vendas" ||
-     $_GET["rota"] == "criar-vendas" ||
-     $_GET["rota"] == "editar-venda" ||
-     $_GET["rota"] == "consultas" ||
-     $_GET["rota"] == "sair"){
+  /*Site wrapper */
+  echo '<div class="wrapper">';
 
-    include "modulos/".$_GET["rota"].".php";
+  /*====================================================
+  Cabeçario
+  ====================================================*/
+    include "modulos/cabecario.php";
+  /*====================================================
+  Menu
+  ====================================================*/
+    include "modulos/menu.php";
+  /*====================================================
+  Conteudo
+  ====================================================*/
+
+  if(isset($_GET["rota"])){
+
+    if($_GET["rota"] == "inicio" ||
+      $_GET["rota"] == "usuarios" ||
+      $_GET["rota"] == "categorias" ||
+      $_GET["rota"] == "produtos" ||
+      $_GET["rota"] == "clientes" ||
+      $_GET["rota"] == "vendas" ||
+      $_GET["rota"] == "criar-vendas" ||
+      $_GET["rota"] == "editar-venda" ||
+      $_GET["rota"] == "consultas" ||
+      $_GET["rota"] == "sair"){
+
+      include "modulos/".$_GET["rota"].".php";
+    }else{
+      include "modulos/404.php";
+    }
+
   }else{
-    include "modulos/404.php";
+    include "modulos/inicio.php";
   }
 
+  /*====================================================
+  Roda pé
+  ====================================================*/
+  include "modulos/footer.php";
+
+  echo '</div>';
+  /*./wrapper */
 }else{
-  include "modulos/inicio.php";
+  include "modulos/login.php";
 }
-
-/*====================================================
-Roda pé
-====================================================*/
-include "modulos/footer.php";
-
 ?>
 
-</div>
-<!-- ./wrapper -->
 <script src="views/js/template.php"></script>
 </body>
 </html>
