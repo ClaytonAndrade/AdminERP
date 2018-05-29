@@ -12,6 +12,9 @@ na raiz admin_erp.sql, criar um banco e rodar o código.
 Configuração do projeto para rodar direto porta MySQL:3000, nome do banco admin_erp, para mudar a configuração 
 acessar models/connection.php.
 
+login: admin
+senha: admin123
+
 Projeto em andamento!
 
 
