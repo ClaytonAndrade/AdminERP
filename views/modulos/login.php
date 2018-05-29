@@ -29,6 +29,12 @@
         </div>
     
       </div>
+      
+      <?php
+        $login = new ControllerUsuarios();
+        $login -> ctrlLoginUsuario();
+      ?>
+  
     </form>
 
   </div>

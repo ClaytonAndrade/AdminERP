@@ -15,6 +15,7 @@ require_once "controllers/vendas.controller.php";
 
 require_once "models/categorias.models.php";
 require_once "models/clientes.models.php";
+require_once "models/connection.php";
 require_once "models/produtos.models.php";
 require_once "models/usuarios.models.php";
 require_once "models/vendas.models.php";
