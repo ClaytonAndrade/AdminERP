@@ -1,7 +1,7 @@
 # AdminERP
 Sistema administrativo simples com template AdminLTE e PHP
 
-#Modelo Login
+Modelo Login
 
 ![alt text](https://github.com/ClaytonAndrade/AdminERP/blob/master/views/img/template/tela_login.PNG)
 
@@ -11,6 +11,8 @@ na raiz admin_erp.sql, criar um banco e rodar o código.
 
 Configuração do projeto para rodar direto porta MySQL:3000, nome do banco admin_erp, para mudar a configuração 
 acessar models/connection.php.
+
+Projeto em andamento!
 
 
 
