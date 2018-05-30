@@ -39,14 +39,14 @@
               <td>1</td>
               <td>Usuário Administrador</td>
               <td>admin</td>
-              <td><img src="views/img/usuarios/default/anonymous.png" class="img-thumbnail" width="40px"></td>
+              <td><img src="views/img/usuarios/default/anonymous.png" class="img-thumbnail" width="25px"></td>
               <td>Administrador</td>
               <td><button class="btn btn-success btn-xs">Ativado</button></td>
               <td>2018-05-30 12:10:30</td>
               <td>
                 <div>
-                  <button class="btn btn-warning"><i class="fa fa-pencil"></i></button>
-                  <button class="btn btn-danger"><i class="fa fa-times"></i></button>
+                  <button class="btn btn-warning btn-xs"><i class="fa fa-pencil"></i></button>
+                  <button class="btn btn-danger btn-xs"><i class="fa fa-times"></i></button>
                 </div>
               </td>
             </tr>
@@ -55,14 +55,14 @@
               <td>2</td>
               <td>Usuário Administrador</td>
               <td>admin</td>
-              <td><img src="views/img/usuarios/default/anonymous.png" class="img-thumbnail" width="40px"></td>
+              <td><img src="views/img/usuarios/default/anonymous.png" class="img-thumbnail" width="25px"></td>
               <td>Administrador</td>
               <td><button class="btn btn-success btn-xs">Ativado</button></td>
               <td>2018-05-30 12:10:30</td>
               <td>
                 <div>
-                  <button class="btn btn-warning"><i class="fa fa-pencil"></i></button>
-                  <button class="btn btn-danger"><i class="fa fa-times"></i></button>
+                  <button class="btn btn-warning btn-xs"><i class="fa fa-pencil"></i></button>
+                  <button class="btn btn-danger btn-xs"><i class="fa fa-times"></i></button>
                 </div>
               </td>
             </tr>
@@ -71,14 +71,14 @@
               <td>3</td>
               <td>Usuário Administrador</td>
               <td>admin</td>
-              <td><img src="views/img/usuarios/default/anonymous.png" class="img-thumbnail" width="40px"></td>
+              <td><img src="views/img/usuarios/default/anonymous.png" class="img-thumbnail" width="25px"></td>
               <td>Administrador</td>
               <td><button class="btn btn-danger btn-xs">Desativado</button></td>
               <td>2018-05-30 12:10:30</td>
               <td>
                 <div>
-                  <button class="btn btn-warning"><i class="fa fa-pencil"></i></button>
-                  <button class="btn btn-danger"><i class="fa fa-times"></i></button>
+                  <button class="btn btn-warning btn-xs"><i class="fa fa-pencil"></i></button>
+                  <button class="btn btn-danger btn-xs"><i class="fa fa-times"></i></button>
                 </div>
               </td>
             </tr>
