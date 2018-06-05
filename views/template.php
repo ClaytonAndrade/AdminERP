@@ -1,7 +1,5 @@
 <?php
-
-session_start();
-
+  session_start();
 ?>
 
 <!DOCTYPE html>
@@ -131,7 +129,7 @@ if(isset($_SESSION["startSession"]) && $_SESSION["startSession"] == "ok"){
   include "modulos/footer.php";
 
   echo '</div>';
-  /*./wrapper */
+
 }else{
   include "modulos/login.php";
 }

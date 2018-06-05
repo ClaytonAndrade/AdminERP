@@ -14,11 +14,11 @@
          </span>
      </a>
      <!--=====================================
-	BARRA DE NAVEGACIÓN
+	Barra de Navegação
 	======================================-->
 	<nav class="navbar navbar-static-top" role="navigation">
 		
-		<!-- Botón de navegación -->
+		<!-- Botão de navegacão -->
 	 	<a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
         	<span class="sr-only">Toggle navigation</span>
       	</a>

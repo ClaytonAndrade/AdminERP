@@ -13,6 +13,7 @@ Configuração do projeto para rodar direto porta MySQL:3000, nome do banco admi
 acessar models/connection.php.
 
 login: admin
+
 senha: admin123
 
 Projeto em andamento!
