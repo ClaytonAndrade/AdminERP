@@ -2,7 +2,7 @@
 
 class ControllerCategorias{
 
-    public function ctrlCategorias(){
+    static public function ctrlCategorias(){
         include "views/categorias.php";
     }
 }

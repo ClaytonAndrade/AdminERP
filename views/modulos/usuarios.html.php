@@ -169,10 +169,6 @@ Modal Inserir Usuário
           <button type="submit" class="btn btn-primary">Salvar</button>
         </div>
 
-        <?php
-          $criarUsuario = new ControllerUsuarios();
-          $criarUsuario -> ctrlCrearUsuario();
-        ?>
       </form>
     </div>
   </div>

@@ -2,7 +2,7 @@
 
 class ControllerClientes{
 
-    public function ctrlClientes(){
+    static public function ctrlClientes(){
         include "views/clientes.php";
     }
 }

@@ -2,7 +2,7 @@
 
 class ControllerProdutos{
 
-    public function ctrlProdutos(){
+    static public function ctrlProdutos(){
         include "views/produtos.php";
     }
 }
