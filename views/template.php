@@ -25,7 +25,7 @@
   <!-- Ionicons -->
   <link rel="stylesheet" href="views/bower_components/Ionicons/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="views/dist/css/AdminLTE.css">
+  <link rel="stylesheet" href="views/dist/css/adminlte.css">
   <!-- AdminLTE Skins -->
   <link rel="stylesheet" href="views/dist/css/skins/_all-skins.min.css">
   <!-- Google Font -->
